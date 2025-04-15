@@ -1,0 +1,68 @@
+html {
+    font-family: Consolas;
+}
+
+body {
+    /*border: aqua 1px solid;*/
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border: red 1px solid;*/
+    height: 10vh;
+}
+
+#main {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    /*border: blueviolet 1px solid;*/
+}
+
+#display {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    /*border: blueviolet 1px solid;*/
+    height: 10vh;
+    font-size: x-large;
+}
+
+#display > * {
+    margin: 1ch;
+}
+
+button {
+    font-size: x-large;
+    color: #96218d;
+    background-color: rgba(130, 97, 141, 0.35);
+    /*border: 1px solid rgba(135, 57, 208, 0.53);*/
+    border-radius: 10px;
+    border: rgba(0, 255, 255, 0.4) solid 1px;
+    transition: background-color 0.25s ease-out;
+    padding: 1ch;
+}
+
+button:hover {
+    background-color: rgba(122, 6, 106, 0.35);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: #ff00ea;
+    /*border: blueviolet 1px solid;*/
+}
+
+li {
+    margin: 1ch;
+}
